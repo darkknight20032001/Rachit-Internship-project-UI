@@ -1,0 +1,41 @@
+.drawer {
+  padding: 5px;
+  position: relative;
+  overflow: hidden;
+}
+.drawer-logo {
+  width: 15.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.drawer-logo img {
+  width: 5rem;
+  height: 5rem;
+}
+.drawer-navigation {
+  width: 15rem;
+  padding: 3rem 3rem 0rem 2rem;
+}
+.drawer-navigation a,
+.drawer-minimize {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.drawer-navigation span {
+  width: 6rem;
+}
+.drawer-minimize {
+  cursor: pointer;
+  width: 15.9rem;
+  padding: 1rem 5rem 1rem 2rem;
+  background: #ec4eb3;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-evenly;
+}

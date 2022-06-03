@@ -1,0 +1,9 @@
+.app {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  height: 100vh;
+  transition: all 1s ease;
+}
+.app-minimize {
+  grid-template-columns: 1fr 13fr;
+}
